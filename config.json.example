@@ -33,10 +33,10 @@
 
     "website": {
         "enabled": true,
-        "host": "0.0.0.0",
-        "siteTitle": "UNOMP Beta",
+        "host": "52.35.107.32",
+        "siteTitle": "Base Beta",
         "port": 80,
-        "stratumHost": "pool.unomp.org",
+        "stratumHost": "pool.base.ninja",
         "stats": {
             "updateInterval": 60,
             "historicalRetention": 43200,
