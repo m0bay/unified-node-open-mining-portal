@@ -1,25 +1,13 @@
 {
     "enabled": false,
-    "coin": "litecoin.json",
+    "coin": "bitcoin.json",
 
-    "auxes": [ // Defines auxillery coins
-        {
-            "coin": "lottoshares.json",
-            "daemons": [ // It is reccomended to supply multiple daemons here for redundancy
-                {
-                    "host": "127.0.0.1",
-                    "port": 23327,
-                    "user": "lottosharesrpc",
-                    "password": "By66dCmyX44uUbA7P3qqXJQeT3Ywd8dZ4dJdfgxCAxbg"
-                }
-            ]
-        }
-    ],
+    "auxes": [],
     "address": "n4jSe18kZMCdGcZqaYprShXW6EH1wivUK1",
 
     "rewardRecipients": {
-        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 1.5,
-        "22851477d63a085dbc2398c8430af1c09e7343f6": 0.1
+        "n37vuNFkXfk15uFnGoVyHZ6PYQxppD3QqK": 0,
+        "22851477d63a085dbc2398c8430af1c09e7343f6": 0
     },
 
     "paymentProcessing": {
@@ -28,9 +16,9 @@
         "minimumPayment": 9999999999,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "port": 51554,
+            "user": "base",
+            "password": "baseHello786"
         }
     },
 
@@ -56,9 +44,9 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 19332,
-            "user": "testuser",
-            "password": "testpass"
+            "port": 51554,
+            "user": "base",
+            "password": "baseHello786"
         }
     ],
 
@@ -77,7 +65,7 @@
         "password": "mypass",
         "database": "ltc",
         "checkPassword": false,
-        "autoCreateWorker": false
+        "autoCreateWorker": true
     }
 
 }
